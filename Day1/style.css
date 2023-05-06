@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: wheat;
+}
+.Nav{
+    background-color: black;
+    padding: 50px;
+}
+.Nav a{
+    color: wheat;
+    text-decoration: none;
+    
+}
+.Nav text{
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+}
+img{
+    height: 200px;
+}
+img{
+    width: 200px;
+}
+.Nav ul{
+    display: flex;
+    justify-content: justify;
+    
+}
+.Nav ul li{
+    margin-right:25px;
+    float: left;
+}

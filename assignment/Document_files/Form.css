@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./form\ bck.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    color: #000;
+}
+.container{
+    width: 30%;
+    border: 1px solid black;
+    min-height: 100vh;
+    background-color: brown;
+    margin: auto;
+}
+.container figure{
+    height: 70px;
+    width: 100%;
+}
+.container figure img{
+    object-fit: contain;
+    width: 100%;
+}
+form{
+    border: 1px solid beige;
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    min-height: 100vh;
+    color: black;
+}
+form h1{
+    text-align: center;
+}
+form >div{
+    display: flex;
+    flex-direction: column;
+}
+input {
+    height: 40%;
+}
+label{
+    font-size: 24px;
+}
+form input [type='radio']
+form input [type='checkbox']{
+    display: inline;
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    margin: 5px auto;
+    background-color: wheat;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
